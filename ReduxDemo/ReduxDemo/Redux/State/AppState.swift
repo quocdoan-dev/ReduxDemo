@@ -9,5 +9,5 @@ import Foundation
 import ReSwift
 
 struct AppState {
-    var loginState = LoginState()
+    var counterState = CounterState(counter: 0)
 }

@@ -8,7 +8,7 @@
 import UIKit
 import ReSwift
 
-var store = Store<AppState>(reducer: Reducers.appReducer, state: nil)
+var mainStore = Store<CounterState>(reducer: Reducers.counterReducer(action:state:), state: CounterState())
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -23,6 +23,9 @@
 		D22F5E962774C90C004F14DC /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E952774C90C004F14DC /* LoginState.swift */; };
 		D22F5E982774C9CD004F14DC /* LoginReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E972774C9CD004F14DC /* LoginReducer.swift */; };
 		D22F5E9A2774CA14004F14DC /* LoginAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E992774CA14004F14DC /* LoginAction.swift */; };
+		D22F5E9C2774D539004F14DC /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E9B2774D539004F14DC /* CounterState.swift */; };
+		D22F5E9E2774D5EE004F14DC /* CounterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E9D2774D5EE004F14DC /* CounterAction.swift */; };
+		D22F5EA02774D809004F14DC /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E9F2774D809004F14DC /* CounterReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		D22F5E952774C90C004F14DC /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
 		D22F5E972774C9CD004F14DC /* LoginReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReducer.swift; sourceTree = "<group>"; };
 		D22F5E992774CA14004F14DC /* LoginAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAction.swift; sourceTree = "<group>"; };
+		D22F5E9B2774D539004F14DC /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
+		D22F5E9D2774D5EE004F14DC /* CounterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAction.swift; sourceTree = "<group>"; };
+		D22F5E9F2774D809004F14DC /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 		EB6458DCCEE9321F6592BE01 /* Pods-ReduxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxDemo.debug.xcconfig"; path = "Target Support Files/Pods-ReduxDemo/Pods-ReduxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +141,7 @@
 			children = (
 				D22F5E912774C80E004F14DC /* AppReducer.swift */,
 				D22F5E972774C9CD004F14DC /* LoginReducer.swift */,
+				D22F5E9F2774D809004F14DC /* CounterReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -143,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				D22F5E992774CA14004F14DC /* LoginAction.swift */,
+				D22F5E9D2774D5EE004F14DC /* CounterAction.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 			children = (
 				D22F5E8F2774C7EB004F14DC /* AppState.swift */,
 				D22F5E952774C90C004F14DC /* LoginState.swift */,
+				D22F5E9B2774D539004F14DC /* CounterState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -322,12 +331,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22F5E9E2774D5EE004F14DC /* CounterAction.swift in Sources */,
 				D22F5E852774C664004F14DC /* LoginViewController.swift in Sources */,
 				D22F5E962774C90C004F14DC /* LoginState.swift in Sources */,
 				D22F5E902774C7EB004F14DC /* AppState.swift in Sources */,
 				D22F5E672774C53D004F14DC /* AppDelegate.swift in Sources */,
+				D22F5EA02774D809004F14DC /* CounterReducer.swift in Sources */,
 				D22F5E982774C9CD004F14DC /* LoginReducer.swift in Sources */,
 				D22F5E692774C53D004F14DC /* SceneDelegate.swift in Sources */,
+				D22F5E9C2774D539004F14DC /* CounterState.swift in Sources */,
 				D22F5E892774C678004F14DC /* TopViewController.swift in Sources */,
 				D22F5E922774C80E004F14DC /* AppReducer.swift in Sources */,
 				D22F5E8E2774C6E3004F14DC /* Button + Ext.swift in Sources */,

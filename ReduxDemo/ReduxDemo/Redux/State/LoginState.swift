@@ -8,6 +8,6 @@
 import Foundation
 import ReSwift
 
-struct LoginState {
-    var counter: Int = 0
+enum LoginState {
+    
 }

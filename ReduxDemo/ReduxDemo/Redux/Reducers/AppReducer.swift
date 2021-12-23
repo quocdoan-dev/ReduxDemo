@@ -10,6 +10,6 @@ import ReSwift
 
 enum Reducers {
     static func appReducer(action: Action, state: AppState?) -> AppState {
-        return AppState(loginState: Reducers.loginReducer(action: action, state: state?.loginState))
+        return AppState(counterState: CounterState(counter: (state?.counterState.counter) ?? 0))
     }
 }
