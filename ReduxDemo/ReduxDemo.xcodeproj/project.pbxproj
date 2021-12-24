@@ -12,8 +12,6 @@
 		D22F5E692774C53D004F14DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E682774C53D004F14DC /* SceneDelegate.swift */; };
 		D22F5E702774C53F004F14DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22F5E6F2774C53F004F14DC /* Assets.xcassets */; };
 		D22F5E732774C53F004F14DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22F5E712774C53F004F14DC /* LaunchScreen.storyboard */; };
-		D22F5E852774C664004F14DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E832774C664004F14DC /* LoginViewController.swift */; };
-		D22F5E862774C664004F14DC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D22F5E842774C664004F14DC /* LoginViewController.xib */; };
 		D22F5E892774C678004F14DC /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E872774C678004F14DC /* TopViewController.swift */; };
 		D22F5E8A2774C678004F14DC /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D22F5E882774C678004F14DC /* TopViewController.xib */; };
 		D22F5E8E2774C6E3004F14DC /* Button + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E8D2774C6E3004F14DC /* Button + Ext.swift */; };
@@ -26,6 +24,10 @@
 		D22F5E9C2774D539004F14DC /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E9B2774D539004F14DC /* CounterState.swift */; };
 		D22F5E9E2774D5EE004F14DC /* CounterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E9D2774D5EE004F14DC /* CounterAction.swift */; };
 		D22F5EA02774D809004F14DC /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5E9F2774D809004F14DC /* CounterReducer.swift */; };
+		D2B16E222776213400378A4D /* CounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B16E202776213400378A4D /* CounterViewController.xib */; };
+		D2B16E232776213400378A4D /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E212776213400378A4D /* CounterViewController.swift */; };
+		D2B16E272776223500378A4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E252776223500378A4D /* LoginViewController.swift */; };
+		D2B16E282776223500378A4D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B16E262776223500378A4D /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +39,6 @@
 		D22F5E6F2774C53F004F14DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22F5E722774C53F004F14DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22F5E742774C53F004F14DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D22F5E832774C664004F14DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		D22F5E842774C664004F14DC /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		D22F5E872774C678004F14DC /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		D22F5E882774C678004F14DC /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
 		D22F5E8D2774C6E3004F14DC /* Button + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button + Ext.swift"; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		D22F5E9B2774D539004F14DC /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
 		D22F5E9D2774D5EE004F14DC /* CounterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAction.swift; sourceTree = "<group>"; };
 		D22F5E9F2774D809004F14DC /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		D2B16E202776213400378A4D /* CounterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterViewController.xib; sourceTree = "<group>"; };
+		D2B16E212776213400378A4D /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		D2B16E252776223500378A4D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D2B16E262776223500378A4D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		EB6458DCCEE9321F6592BE01 /* Pods-ReduxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxDemo.debug.xcconfig"; path = "Target Support Files/Pods-ReduxDemo/Pods-ReduxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,8 +123,9 @@
 		D22F5E7B2774C624004F14DC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D2B16E1F2776213400378A4D /* Counter */,
+				D2B16E242776221D00378A4D /* Login */,
 				D22F5E822774C654004F14DC /* Top */,
-				D22F5E812774C650004F14DC /* Login */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,15 +178,6 @@
 			path = State;
 			sourceTree = "<group>";
 		};
-		D22F5E812774C650004F14DC /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				D22F5E832774C664004F14DC /* LoginViewController.swift */,
-				D22F5E842774C664004F14DC /* LoginViewController.xib */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
 		D22F5E822774C654004F14DC /* Top */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +201,24 @@
 				D22F5E8D2774C6E3004F14DC /* Button + Ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		D2B16E1F2776213400378A4D /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				D2B16E212776213400378A4D /* CounterViewController.swift */,
+				D2B16E202776213400378A4D /* CounterViewController.xib */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
+		D2B16E242776221D00378A4D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D2B16E252776223500378A4D /* LoginViewController.swift */,
+				D2B16E262776223500378A4D /* LoginViewController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		EE765B9EC49E2F11C360FFCB /* Frameworks */ = {
@@ -275,8 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D22F5E862774C664004F14DC /* LoginViewController.xib in Resources */,
+				D2B16E282776223500378A4D /* LoginViewController.xib in Resources */,
 				D22F5E732774C53F004F14DC /* LaunchScreen.storyboard in Resources */,
+				D2B16E222776213400378A4D /* CounterViewController.xib in Resources */,
 				D22F5E702774C53F004F14DC /* Assets.xcassets in Resources */,
 				D22F5E8A2774C678004F14DC /* TopViewController.xib in Resources */,
 			);
@@ -332,15 +347,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D22F5E9E2774D5EE004F14DC /* CounterAction.swift in Sources */,
-				D22F5E852774C664004F14DC /* LoginViewController.swift in Sources */,
 				D22F5E962774C90C004F14DC /* LoginState.swift in Sources */,
 				D22F5E902774C7EB004F14DC /* AppState.swift in Sources */,
+				D2B16E272776223500378A4D /* LoginViewController.swift in Sources */,
 				D22F5E672774C53D004F14DC /* AppDelegate.swift in Sources */,
 				D22F5EA02774D809004F14DC /* CounterReducer.swift in Sources */,
 				D22F5E982774C9CD004F14DC /* LoginReducer.swift in Sources */,
 				D22F5E692774C53D004F14DC /* SceneDelegate.swift in Sources */,
 				D22F5E9C2774D539004F14DC /* CounterState.swift in Sources */,
 				D22F5E892774C678004F14DC /* TopViewController.swift in Sources */,
+				D2B16E232776213400378A4D /* CounterViewController.swift in Sources */,
 				D22F5E922774C80E004F14DC /* AppReducer.swift in Sources */,
 				D22F5E8E2774C6E3004F14DC /* Button + Ext.swift in Sources */,
 				D22F5E9A2774CA14004F14DC /* LoginAction.swift in Sources */,

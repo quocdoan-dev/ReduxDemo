@@ -2,46 +2,48 @@
 //  LoginViewController.swift
 //  ReduxDemo
 //
-//  Created by Quoc Doan M. VN.DaNang on 12/23/21.
+//  Created by Quoc Doan M. VN.DaNang on 12/24/21.
 //
 
 import UIKit
-import ReSwift
 
-class LoginViewController: UIViewController {
-    @IBOutlet private weak var titleLabel: UILabel!
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-    }
+final class LoginViewController: UIViewController {
+
+    @IBOutlet private weak var userNameTextField: UITextField!
+    @IBOutlet private weak var passwordTextField: UITextField!
+    @IBOutlet private weak var loginButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "LOGIN"
-        mainStore.subscribe(self)
+        setupUI()
     }
 
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        mainStore.unsubscribe(self)
+    private func setupUI() {
+        loginButton.setBackgroundColor(.darkGray, for: .normal)
+        loginButton.setBackgroundColor(.gray, for: .disabled)
+        loginButton.isEnabled = false
     }
 
-    @IBAction private func increase(_ sender: UIButton) {
-        mainStore.dispatch(CounterAction.Increase())
-    }
-
-    @IBAction private func decrease(_ sender: UIButton) {
-        mainStore.dispatch(CounterAction.Decrease())
-    }
-
-    @IBAction private func reset(_ sender: UIButton) {
-        mainStore.dispatch(CounterAction.Reset())
+    @IBAction private func loginButtonTouchUpInside(_ sender: UIButton) {
+        let vc = TopViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
-extension LoginViewController: StoreSubscriber {
-    func newState(state: CounterState) {
-        titleLabel.text = "\(mainStore.state.counter)"
+extension LoginViewController: UITextFieldDelegate {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if let currentText: NSString = textField.text as NSString? {
+            let newText = currentText.replacingCharacters(in: range, with: string)
+            switch textField {
+            case userNameTextField:
+                loginButton.isEnabled = !newText.isEmpty && !(passwordTextField.text?.isEmpty ?? false)
+            default:
+                loginButton.isEnabled = !newText.isEmpty && !(userNameTextField.text?.isEmpty ?? false)
+            }
+            return true
+        } else {
+            return false
+        }
     }
 }
