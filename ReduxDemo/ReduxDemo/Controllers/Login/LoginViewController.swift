@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ReSwift
 
 final class LoginViewController: UIViewController {
 
@@ -13,10 +14,20 @@ final class LoginViewController: UIViewController {
     @IBOutlet private weak var passwordTextField: UITextField!
     @IBOutlet private weak var loginButton: UIButton!
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        mainStore.subscribe(self)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "LOGIN"
         setupUI()
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        mainStore.unsubscribe(self)
     }
 
     private func setupUI() {
@@ -45,5 +56,11 @@ extension LoginViewController: UITextFieldDelegate {
         } else {
             return false
         }
+    }
+}
+
+extension LoginViewController: StoreSubscriber {
+    func newState(state: AppState) {
+        print(state)
     }
 }

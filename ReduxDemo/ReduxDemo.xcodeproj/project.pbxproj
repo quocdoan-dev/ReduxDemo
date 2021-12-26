@@ -28,6 +28,19 @@
 		D2B16E232776213400378A4D /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E212776213400378A4D /* CounterViewController.swift */; };
 		D2B16E272776223500378A4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E252776223500378A4D /* LoginViewController.swift */; };
 		D2B16E282776223500378A4D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B16E262776223500378A4D /* LoginViewController.xib */; };
+		D2B16E2B2776294300378A4D /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E2A2776294300378A4D /* Api.swift */; };
+		D2B16E3327762C2400378A4D /* DataJson + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E3227762C2400378A4D /* DataJson + Ext.swift */; };
+		D2B16E3527762CC000378A4D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E3427762CC000378A4D /* APIManager.swift */; };
+		D2B16E37277770A500378A4D /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E36277770A500378A4D /* TopViewModel.swift */; };
+		D2B16E3A277770E200378A4D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E39277770E200378A4D /* Movie.swift */; };
+		D2B16E3E27783EBA00378A4D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E3C27783EBA00378A4D /* MovieCell.swift */; };
+		D2B16E3F27783EBA00378A4D /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B16E3D27783EBA00378A4D /* MovieCell.xib */; };
+		D2B16E4127783EC500378A4D /* MovieCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E4027783EC500378A4D /* MovieCellViewModel.swift */; };
+		D2B16E43277843E700378A4D /* MovieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E42277843E700378A4D /* MovieResult.swift */; };
+		D2B16E452778454500378A4D /* MovieAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E442778454500378A4D /* MovieAction.swift */; };
+		D2B16E472778458600378A4D /* MovieReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E462778458600378A4D /* MovieReducer.swift */; };
+		D2B16E49277845E800378A4D /* MoviePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E48277845E800378A4D /* MoviePage.swift */; };
+		D2B16E4B2778463500378A4D /* MovieState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E4A2778463500378A4D /* MovieState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +68,19 @@
 		D2B16E212776213400378A4D /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		D2B16E252776223500378A4D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D2B16E262776223500378A4D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D2B16E2A2776294300378A4D /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		D2B16E3227762C2400378A4D /* DataJson + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataJson + Ext.swift"; sourceTree = "<group>"; };
+		D2B16E3427762CC000378A4D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D2B16E36277770A500378A4D /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		D2B16E39277770E200378A4D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D2B16E3C27783EBA00378A4D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D2B16E3D27783EBA00378A4D /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		D2B16E4027783EC500378A4D /* MovieCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellViewModel.swift; sourceTree = "<group>"; };
+		D2B16E42277843E700378A4D /* MovieResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResult.swift; sourceTree = "<group>"; };
+		D2B16E442778454500378A4D /* MovieAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAction.swift; sourceTree = "<group>"; };
+		D2B16E462778458600378A4D /* MovieReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReducer.swift; sourceTree = "<group>"; };
+		D2B16E48277845E800378A4D /* MoviePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePage.swift; sourceTree = "<group>"; };
+		D2B16E4A2778463500378A4D /* MovieState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieState.swift; sourceTree = "<group>"; };
 		EB6458DCCEE9321F6592BE01 /* Pods-ReduxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxDemo.debug.xcconfig"; path = "Target Support Files/Pods-ReduxDemo/Pods-ReduxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +142,8 @@
 		D22F5E7A2774C61E004F14DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D2B16E38277770D000378A4D /* Scheme */,
+				D2B16E292776293700378A4D /* Core */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +175,7 @@
 				D22F5E912774C80E004F14DC /* AppReducer.swift */,
 				D22F5E972774C9CD004F14DC /* LoginReducer.swift */,
 				D22F5E9F2774D809004F14DC /* CounterReducer.swift */,
+				D2B16E462778458600378A4D /* MovieReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -156,6 +185,7 @@
 			children = (
 				D22F5E992774CA14004F14DC /* LoginAction.swift */,
 				D22F5E9D2774D5EE004F14DC /* CounterAction.swift */,
+				D2B16E442778454500378A4D /* MovieAction.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -174,6 +204,7 @@
 				D22F5E8F2774C7EB004F14DC /* AppState.swift */,
 				D22F5E952774C90C004F14DC /* LoginState.swift */,
 				D22F5E9B2774D539004F14DC /* CounterState.swift */,
+				D2B16E4A2778463500378A4D /* MovieState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -181,8 +212,10 @@
 		D22F5E822774C654004F14DC /* Top */ = {
 			isa = PBXGroup;
 			children = (
+				D2B16E3B27783E9900378A4D /* MovieCell */,
 				D22F5E872774C678004F14DC /* TopViewController.swift */,
 				D22F5E882774C678004F14DC /* TopViewController.xib */,
+				D2B16E36277770A500378A4D /* TopViewModel.swift */,
 			);
 			path = Top;
 			sourceTree = "<group>";
@@ -199,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				D22F5E8D2774C6E3004F14DC /* Button + Ext.swift */,
+				D2B16E3227762C2400378A4D /* DataJson + Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -219,6 +253,35 @@
 				D2B16E262776223500378A4D /* LoginViewController.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		D2B16E292776293700378A4D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D2B16E2A2776294300378A4D /* Api.swift */,
+				D2B16E3427762CC000378A4D /* APIManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D2B16E38277770D000378A4D /* Scheme */ = {
+			isa = PBXGroup;
+			children = (
+				D2B16E39277770E200378A4D /* Movie.swift */,
+				D2B16E42277843E700378A4D /* MovieResult.swift */,
+				D2B16E48277845E800378A4D /* MoviePage.swift */,
+			);
+			path = Scheme;
+			sourceTree = "<group>";
+		};
+		D2B16E3B27783E9900378A4D /* MovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				D2B16E3C27783EBA00378A4D /* MovieCell.swift */,
+				D2B16E3D27783EBA00378A4D /* MovieCell.xib */,
+				D2B16E4027783EC500378A4D /* MovieCellViewModel.swift */,
+			);
+			path = MovieCell;
 			sourceTree = "<group>";
 		};
 		EE765B9EC49E2F11C360FFCB /* Frameworks */ = {
@@ -289,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B16E3F27783EBA00378A4D /* MovieCell.xib in Resources */,
 				D2B16E282776223500378A4D /* LoginViewController.xib in Resources */,
 				D22F5E732774C53F004F14DC /* LaunchScreen.storyboard in Resources */,
 				D2B16E222776213400378A4D /* CounterViewController.xib in Resources */,
@@ -348,18 +412,30 @@
 			files = (
 				D22F5E9E2774D5EE004F14DC /* CounterAction.swift in Sources */,
 				D22F5E962774C90C004F14DC /* LoginState.swift in Sources */,
+				D2B16E452778454500378A4D /* MovieAction.swift in Sources */,
 				D22F5E902774C7EB004F14DC /* AppState.swift in Sources */,
 				D2B16E272776223500378A4D /* LoginViewController.swift in Sources */,
 				D22F5E672774C53D004F14DC /* AppDelegate.swift in Sources */,
+				D2B16E4B2778463500378A4D /* MovieState.swift in Sources */,
+				D2B16E43277843E700378A4D /* MovieResult.swift in Sources */,
+				D2B16E3527762CC000378A4D /* APIManager.swift in Sources */,
 				D22F5EA02774D809004F14DC /* CounterReducer.swift in Sources */,
 				D22F5E982774C9CD004F14DC /* LoginReducer.swift in Sources */,
 				D22F5E692774C53D004F14DC /* SceneDelegate.swift in Sources */,
 				D22F5E9C2774D539004F14DC /* CounterState.swift in Sources */,
 				D22F5E892774C678004F14DC /* TopViewController.swift in Sources */,
+				D2B16E4127783EC500378A4D /* MovieCellViewModel.swift in Sources */,
+				D2B16E3327762C2400378A4D /* DataJson + Ext.swift in Sources */,
 				D2B16E232776213400378A4D /* CounterViewController.swift in Sources */,
+				D2B16E472778458600378A4D /* MovieReducer.swift in Sources */,
+				D2B16E49277845E800378A4D /* MoviePage.swift in Sources */,
 				D22F5E922774C80E004F14DC /* AppReducer.swift in Sources */,
+				D2B16E3E27783EBA00378A4D /* MovieCell.swift in Sources */,
+				D2B16E3A277770E200378A4D /* Movie.swift in Sources */,
 				D22F5E8E2774C6E3004F14DC /* Button + Ext.swift in Sources */,
 				D22F5E9A2774CA14004F14DC /* LoginAction.swift in Sources */,
+				D2B16E37277770A500378A4D /* TopViewModel.swift in Sources */,
+				D2B16E2B2776294300378A4D /* Api.swift in Sources */,
 				D22F5E942774C823004F14DC /* Middlewares.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,8 +576,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG9U27J3PV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReduxDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -513,8 +591,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.quocdoan.dev.ReduxDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.quocdoan.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,8 +606,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG9U27J3PV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReduxDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -540,8 +621,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.quocdoan.dev.ReduxDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.quocdoan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

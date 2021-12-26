@@ -10,4 +10,5 @@ import ReSwift
 
 struct AppState {
     var counterState = CounterState(counter: 0)
+    var movieState = MovieState()
 }

@@ -8,5 +8,6 @@ target 'ReduxDemo' do
   # Pods for ReduxDemo
 
   pod "ReSwift"
+  pod "ReSwiftThunk"
 
 end

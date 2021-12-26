@@ -10,6 +10,7 @@ import ReSwift
 
 enum Reducers {
     static func appReducer(action: Action, state: AppState?) -> AppState {
-        return AppState(counterState: Reducers.counterReducer(action: action, state: state?.counterState))
+        return AppState(counterState: Reducers.counterReducer(action: action, state: state?.counterState),
+                        movieState: Reducers.movieReducer(action: action, state: state?.movieState))
     }
 }
