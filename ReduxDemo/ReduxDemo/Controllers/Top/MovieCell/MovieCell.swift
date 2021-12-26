@@ -28,6 +28,7 @@ final class MovieCell: UITableViewCell {
         guard let viewModel = viewModel else {
             return
         }
+        movieImageView.setPosterForMovie(viewModel.movie)
         titleLabel.text = viewModel.movie.title
         subtitleLabel.text = viewModel.movie.overview
     }

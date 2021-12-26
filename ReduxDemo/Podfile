@@ -9,5 +9,6 @@ target 'ReduxDemo' do
 
   pod "ReSwift"
   pod "ReSwiftThunk"
+  pod "Nuke", "~> 7.4"
 
 end

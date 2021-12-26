@@ -1,4 +1,5 @@
 PODS:
+  - Nuke (7.6.3)
   - ReSwift (6.1.0)
   - ReSwiftThunk (2.0.1):
     - ReSwift (~> 6.0)
@@ -7,18 +8,21 @@ PODS:
     - ReSwift (~> 6.0)
 
 DEPENDENCIES:
+  - Nuke (~> 7.4)
   - ReSwift
   - ReSwiftThunk
 
 SPEC REPOS:
   trunk:
+    - Nuke
     - ReSwift
     - ReSwiftThunk
 
 SPEC CHECKSUMS:
+  Nuke: 44130e95e09463f8773ae4b96b90de1eba6b3350
   ReSwift: eab3c01e4279ba81b54a61e4fd6499634d20123a
   ReSwiftThunk: 7ca5145764be6f30b62db88a52d170133954629e
 
-PODFILE CHECKSUM: 8bc51dfeac4d7e50c0b982f4c1f3f594bcaef758
+PODFILE CHECKSUM: b2a6bbc355ae566c0623cf2db597ed316b2d4df1
 
 COCOAPODS: 1.11.2

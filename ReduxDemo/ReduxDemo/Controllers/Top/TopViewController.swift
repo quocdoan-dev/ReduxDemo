@@ -34,6 +34,7 @@ final class TopViewController: UIViewController {
 
 extension TopViewController: StoreSubscriber {
     func newState(state: AppState) {
+        print(state.movieState.movies.count)
         viewModel.movies = state.movieState.movies
         tableView.reloadData()
     }
@@ -42,6 +43,11 @@ extension TopViewController: StoreSubscriber {
 extension TopViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return Define.heightForCell
+    }
+
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        guard indexPath.row == mainStore.state.movieState.movies.count - 6 else { return }
+        mainStore.dispatch(viewModel.fetchUpcomingMovies)
     }
 }
 

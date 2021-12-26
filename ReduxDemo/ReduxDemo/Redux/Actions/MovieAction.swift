@@ -9,5 +9,5 @@ import Foundation
 import ReSwift
 
 enum MovieAction: Action {
-    case fetchUpcomingMovies(movies: [Movie])
+    case fetchUpcomingMovies(totalPages: Int, movies: [Movie])
 }

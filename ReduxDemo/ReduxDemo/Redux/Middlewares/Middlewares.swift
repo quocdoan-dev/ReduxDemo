@@ -15,7 +15,8 @@ let fetchUpcomingMovies = Thunk<AppState> { dispatch, getState in
             return
         }
         DispatchQueue.main.async {
-            dispatch(MovieAction.fetchUpcomingMovies(movies: response.results))
+            dispatch(MovieAction.fetchUpcomingMovies(totalPages: response.totalPages,
+                                                     movies: response.results))
         }
     }
 }

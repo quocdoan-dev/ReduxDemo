@@ -5,7 +5,7 @@
 //  Created by Quoc Doan M. VN.DaNang on 12/26/21.
 //
 
-import Foundation
+import UIKit
 
 final class MovieCellViewModel {
 

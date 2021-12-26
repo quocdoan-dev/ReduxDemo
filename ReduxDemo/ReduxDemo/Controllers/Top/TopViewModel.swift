@@ -22,12 +22,16 @@ final class TopViewModel {
     }
 
     let fetchUpcomingMovies = Thunk<AppState> { dispatch, getState in
-        APIManager().fetchUpcomingMovies(page: 1) { response in
+        guard let state = getState(),
+              !state.movieState.moviesPage.isComplete else { return }
+        let page = state.movieState.moviesPage.currentPage + 1
+        APIManager().fetchUpcomingMovies(page: page) { response in
             guard let response = response else {
                 return
             }
             DispatchQueue.main.async {
-                dispatch(MovieAction.fetchUpcomingMovies(movies: response.results))
+                dispatch(MovieAction.fetchUpcomingMovies(totalPages: response.totalPages,
+                                                         movies: response.results))
             }
         }
     }
