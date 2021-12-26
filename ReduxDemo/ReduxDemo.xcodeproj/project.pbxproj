@@ -28,7 +28,6 @@
 		D2B16E232776213400378A4D /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E212776213400378A4D /* CounterViewController.swift */; };
 		D2B16E272776223500378A4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E252776223500378A4D /* LoginViewController.swift */; };
 		D2B16E282776223500378A4D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B16E262776223500378A4D /* LoginViewController.xib */; };
-		D2B16E2B2776294300378A4D /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E2A2776294300378A4D /* Api.swift */; };
 		D2B16E3327762C2400378A4D /* DataJson + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E3227762C2400378A4D /* DataJson + Ext.swift */; };
 		D2B16E3527762CC000378A4D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E3427762CC000378A4D /* APIManager.swift */; };
 		D2B16E37277770A500378A4D /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B16E36277770A500378A4D /* TopViewModel.swift */; };
@@ -68,7 +67,6 @@
 		D2B16E212776213400378A4D /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		D2B16E252776223500378A4D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D2B16E262776223500378A4D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		D2B16E2A2776294300378A4D /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		D2B16E3227762C2400378A4D /* DataJson + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataJson + Ext.swift"; sourceTree = "<group>"; };
 		D2B16E3427762CC000378A4D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		D2B16E36277770A500378A4D /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
@@ -258,7 +256,6 @@
 		D2B16E292776293700378A4D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D2B16E2A2776294300378A4D /* Api.swift */,
 				D2B16E3427762CC000378A4D /* APIManager.swift */,
 			);
 			path = Core;
@@ -435,7 +432,6 @@
 				D22F5E8E2774C6E3004F14DC /* Button + Ext.swift in Sources */,
 				D22F5E9A2774CA14004F14DC /* LoginAction.swift in Sources */,
 				D2B16E37277770A500378A4D /* TopViewModel.swift in Sources */,
-				D2B16E2B2776294300378A4D /* Api.swift in Sources */,
 				D22F5E942774C823004F14DC /* Middlewares.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
